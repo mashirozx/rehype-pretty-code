@@ -11,7 +11,7 @@ export default [
   {
     ...common,
     output: {
-      exports: 'default',
+      exports: 'named',
       file: './dist/rehype-pretty-code.js',
       format: 'esm',
     },
@@ -19,7 +19,7 @@ export default [
   {
     ...common,
     output: {
-      exports: 'default',
+      exports: 'named',
       file: './dist/rehype-pretty-code.cjs',
       format: 'cjs',
     },

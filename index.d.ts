@@ -14,4 +14,6 @@ export type Options = {
 
 declare const rehypePrettyCode: (options?: Partial<Options>) => any;
 
-export default rehypePrettyCode;
+declare const rehypePrettyCodeSync: (options?: Partial<Options>) => any;
+
+export {rehypePrettyCode, rehypePrettyCodeSync};
